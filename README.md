@@ -4,6 +4,10 @@ Based on [MaterialDesign](https://github.com/Templarian/MaterialDesign) project,
 a CRON behind this project to pull the latest version of the **mdi.svg** file 
 from [https://materialdesignicons.com](https://materialdesignicons.com).
 
+## Usage
+This bundle is usable with Angular(JS) Material and to facilitate his usage, it's recommended to use
+[copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin).
+
 Add the following plugin configuration in webpack config:
 ```javascript
 new CopyWebpackPlugin([
@@ -11,11 +15,7 @@ new CopyWebpackPlugin([
     to: 'assets/mdi.svg'
   }
 ]);
-```
-
-
-## Usage
-This bundle is usable with Angular(JS) Material and to facilitate his usage, it's recommended to use [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin). 
+``` 
 ### Angular 2.x/4.x/5.x
 ```typescript App module
 import { BrowserModule } from '@angular/platform-browser';
