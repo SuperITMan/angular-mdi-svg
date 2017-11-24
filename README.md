@@ -1,6 +1,8 @@
 # angular-mdi-svg
 Material Design Icons mdi.svg file for Angular(JS) Material.
-Based on [MaterialDesign](https://github.com/Templarian/MaterialDesign) project, there is a CRON behind this project to pull the last version of the **mdi.svg** file from [https://materialdesignicons.com](https://materialdesignicons.com).
+Based on [MaterialDesign](https://github.com/Templarian/MaterialDesign) project, there is
+a CRON behind this project to pull the latest version of the **mdi.svg** file 
+from [https://materialdesignicons.com](https://materialdesignicons.com).
 
 Add the following plugin configuration in webpack config:
 ```javascript
