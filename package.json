@@ -1,0 +1,22 @@
+{
+  "name": "angular-mdi-svg",
+  "version": "1.0.0",
+  "description": "Material Design Icons mdi.svg file for using with Angular(JS) Material",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperITMan/angular-mdi-svg.git"
+  },
+  "keywords": [
+    "Angular",
+    "Material",
+    "Design",
+    "Icons",
+    "SVG"
+  ],
+  "author": "SuperITMan <admin@superitman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperITMan/angular-mdi-svg/issues"
+  },
+  "homepage": "https://github.com/SuperITMan/angular-mdi-svg#readme"
+}
